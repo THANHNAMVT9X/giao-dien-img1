@@ -1,0 +1,229 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #f6f5f1;
+}
+#page{
+	width: 1200px;
+	margin: 0px auto;
+}
+nav#main-nav ul li a{
+	color: black;
+}
+#body-page{
+	background-color: #fff;
+	min-height: 1500px;
+}
+
+section#left-page{
+	width: 750px;
+	padding: 10px;
+	 float: left;
+	/* background-color: cyan;*/
+}
+aside{
+	width: 450px;	 
+	float: right;
+	/*background-color: yellow;*/
+}
+aside .block .N1{
+		border-bottom: 1px solid #ccc;
+
+}
+aside .block .N1 ul li img{
+	margin-right: 25px;
+}
+aside .block .N1 ul li a{
+	text-decoration: none;
+	color: black;
+	margin: 10px 0px 100px 0px;
+}
+
+.clr{ clear: both; }
+.Box{
+	min-height: 400px;
+
+}
+
+.Box .D1{
+	width: 300px;
+	height: 400px;
+	background: green;
+	float: left;
+}
+.Box .D2{
+	width: 300px;
+	height: 400px;
+	background: red;
+	float: left;
+}
+.Box .D3{
+	width: 300px;
+	height: 400px;
+	background: cyan;
+	float: left;
+}
+.Box .D4{
+	width: 300px;
+	height: 400px;
+	background: yellow;
+	float: left;
+}
+/* khoi */
+.block{
+	width: 100%;
+	-webkit-box-shadow: 0 7px 5px 0 #D4D4D4;
+	box-shadow: 0 7px 5px 0 #D4D4D4;
+	margin-bottom: 20px;
+}
+.block header{
+	margin-top: 10px;
+	border-top: 5px solid #08afe3;
+	border-bottom: 1px solid #ccc;
+}
+.block header h3{
+	text-transform: uppercase;
+	text-align: center;
+	margin: 5px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #5d5d5d;
+	font-size: 0.95em;
+}
+.block .content-block{
+	padding: 10px;
+}
+/*	thanh menu ngang */
+#main-nav{
+}
+#main-nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e69de+11,1e69de+11,3690f0+51,54a3ee+78,54a3ee+78,6db3f2+92,6db3f2+92 */
+background: #1e69de; /* Old browsers */
+background: -moz-linear-gradient(top,  #1e69de 11%, #1e69de 11%, #3690f0 51%, #54a3ee 78%, #54a3ee 78%, #6db3f2 92%, #6db3f2 92%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #1e69de 11%,#1e69de 11%,#3690f0 51%,#54a3ee 78%,#54a3ee 78%,#6db3f2 92%,#6db3f2 92%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #1e69de 11%,#1e69de 11%,#3690f0 51%,#54a3ee 78%,#54a3ee 78%,#6db3f2 92%,#6db3f2 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e69de', endColorstr='#6db3f2',GradientType=0 ); /* IE6-9 */
+
+
+	border-bottom: 2px solid #5b5c57;
+	font-size: 0px;
+}
+#main-nav ul li{
+	display: inline-block;
+	font-size: 1rem;
+}
+#main-nav ul li a{
+	font-family: Arial;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	color: #fff;
+	border-right: 1px solid #fff;
+}
+#main-nav ul li:last-child a{
+	border-right: none;
+}
+#main-nav ul li a:hover, #main-nav ul li.active a{
+	background-color: #222327;
+	color: #f1f1f1;
+	transition: ease-in 0.35s;
+    -moz-transition: ease-in 0.35s;
+    -webkit-transition: ease-in 0.35s;
+}
+
+/*--- phan noi dung */
+#slide-show img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#rec-post .content-block .hot img{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+#rec-post .content-block .hot a{
+	text-decoration: none;
+	color: black;
+}
+#rec-post .content-block .hot span{
+	text-align: left;
+	font-size: 15px;
+}
+#rec-post .content-block .hot p{
+	text-align: justify;
+	font-size: 15px;
+}
+#rec-post ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	border-top: 1px solid #ccc;
+}
+
+#rec-post ul li{
+	width: 50%;
+	float: left;
+
+}
+#rec-post ul li img{
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	width: 70px;
+	height: 70px;
+}
+#rec-post ul li a{
+	text-decoration: none;
+	color: black;
+
+}
+#rec-post ul li a h4{
+	margin-top: 10px;
+}
+#rec-post h4{
+	margin: 3px 0px;
+
+}
+.block ul{
+	list-style: none;
+	}
+.block ul li img{
+	width: 70px;
+	height: 70px;
+	float: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
